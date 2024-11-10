@@ -1,0 +1,124 @@
+/* Mengatur font dasar dan latar belakang */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Latar belakang krem */
+    color: #333; /* Warna teks gelap */
+    margin: 0;
+    padding: 0;
+}
+
+/* Mengatur container tabel */
+.table-container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff; /* Latar belakang putih untuk tabel */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Mengatur heading tabel */
+h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #6f4f37; /* Warna cokelat kopi */
+    margin-bottom: 20px;
+}
+
+/* Mengatur tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Mengatur baris header tabel */
+thead {
+    background-color: #6f4f37; /* Warna cokelat kopi */
+    color: #fff;
+}
+
+th {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Mengatur isi tabel */
+td {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Mengatur baris gantian dengan warna latar belakang yang berbeda */
+tbody tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+tbody tr:hover {
+    background-color: #e0d0b3; /* Warna saat hover untuk efek interaksi */
+}
+
+/* Menambahkan border untuk tabel */
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+/* Mengatur teks kosong ketika tidak ada data */
+td[colspan="3"] {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
+
+/*  navbar start */
+#navbar{
+    background-color: #b2774c;
+}
+#logo img{
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather',serif;
+}
+.all-content{
+    background: #f7f5f2;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background: #b2774c;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+    width: 10px;
+}

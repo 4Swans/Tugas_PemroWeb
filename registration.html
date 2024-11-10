@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Registration Form</h2>
+        <form action="connect.php" method="post">
+            <!-- Nama -->
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+            </div>
+
+            <!-- NPM -->
+            <div class="form-group">
+                <label for="npm">NPM:</label>
+                <input type="text" id="npm" name="npm" placeholder="Masukkan NPM anda" required>
+            </div>
+
+            <!-- Jenis Kelamin -->
+            <div class="form-group">
+                <label>Jenis Kelamin:</label>
+                <div>
+                    <label for="laki-laki" class="radio-inline"><input type="radio" name="jk" value="L" id="laki-laki" required> Laki-laki</label>
+                    <label for="perempuan" class="radio-inline"><input type="radio" name="jk" value="P" id="perempuan" required> Perempuan</label>
+                </div>
+            </div>
+            
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+</body>
+</html>
